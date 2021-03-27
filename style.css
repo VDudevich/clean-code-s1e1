@@ -4,46 +4,61 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header .header-img {
   width: 100%;
 }
+
 .header .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .header { text-align: center;
+
+  .header {
+    text-align: center;
   }
+
 }
+
 .section-actions {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .task-wrapper {
   display: flex;
 }
+
 .tasks-list {
   margin: 0;
   padding: 0px;
 }
-.tasks-list-item, .section-actions-title {
+
+.tasks-list-item,
+.section-actions-title {
   list-style: none;
 }
-input,button {
+
+input,
+button {
   outline: none;
 }
+
 .btn-custom {
   background: none;
   border: 0px;
@@ -53,9 +68,11 @@ input,button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn-custom:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .section-actions-title,
 .add-item-title {
@@ -67,6 +84,7 @@ input,button {
   margin: 0;
   text-transform: uppercase;
 }
+
 .input-text {
   margin: 0;
   font-size: 18px;
@@ -79,6 +97,7 @@ input,button {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .input-text:focus {
   color: #333;
 }
@@ -88,9 +107,11 @@ input,button {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
+
 .btn-add:hover {
   color: #0fc57c;
 }
@@ -100,11 +121,11 @@ input,button {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .tasks-list-item > * {
   vertical-align: middle;
 }
@@ -112,23 +133,27 @@ input,button {
 .checkbox {
   margin: 0 10px;
 }
+
 .task-name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-text {
   width: 226px;
 }
 .delete:hover {
   color: #cf2323;
 }
+
 .delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-img:hover {
   transform: rotateZ(0);
 }
