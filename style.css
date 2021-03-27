@@ -74,6 +74,10 @@ button {
 }
 
 /* Heading */
+.add-items {
+  padding: 16px 0;
+}
+
 .section-actions-title,
 .add-item-title {
   color: #333;
